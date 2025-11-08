@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to Movie-Style Animated Video</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Text to Movie-Style Animated Video Generator</h1>
+        <p>Enter a descriptive prompt (e.g., "A dragon flying over a medieval castle at sunset").</p>
+        <textarea id="textInput" placeholder="Describe your scene..."></textarea>
+        <button id="generateBtn">Generate Video</button>
+        <div id="loading" style="display:none;">Generating video... This may take 1-2 minutes.</div>
+        <video id="generatedVideo" controls style="display:none; max-width:100%;"></video>
+        <button id="downloadBtn" style="display:none;">Download Video</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
